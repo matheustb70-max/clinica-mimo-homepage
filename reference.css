@@ -37,3 +37,7 @@ nav{background:#f8f5ed}
 .image-caption,.space-image>span{background:#fcfaf5ed}
 footer{background:#f8f5ed}
 @media(max-width:1023px){.hero:before{background:radial-gradient(ellipse at 70% 50%,#eee8dc 0,transparent 48%),linear-gradient(110deg,#f2eee4,#f8f5ed)}}
+@media(max-width:1023px){
+  .hero-visual>img{content:url('assets/hero-web-mobile.webp');width:100%;height:auto;aspect-ratio:944 / 917;object-fit:contain;object-position:center;border-radius:0;mask-image:none}
+  .hero-visual .image-caption{position:relative;inset:auto;max-width:none;margin-top:12px;animation:none}
+}
